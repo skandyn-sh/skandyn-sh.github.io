@@ -1,1 +1,1 @@
-skandyn-sh.github.io
+My simple blog - in progress
