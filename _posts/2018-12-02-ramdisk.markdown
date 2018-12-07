@@ -1,0 +1,37 @@
+
+ultra-fast RAM
+```
+sudo mkdir /tmp/ramdisk
+sudo chmod 777 /tmp/ramdisk
+sudo mount -t tmpfs -o size=1024m myramdisk /tmp/ramdisk
+```
+command to check
+```
+mount | tail -n 1
+```
+ramdisk is mounted
+```
+mariusz@laptop-debian:~$ mount | tail -n 1
+myramdisk on /tmp/ramdisk type tmpfs (rw,relatime,size=1048576k)
+mariusz@laptop-debian:~$ 
+```
+test write speed
+```
+sudo dd if=/dev/zero of=/tmp/ramdisk/zero bs=4k count=10000
+```
+test read speed
+```
+sudo dd if=/tmp/ramdisk/zero of=/dev/null bs=4k count=10000
+```
+unmount ramdisk
+```
+sudo umount /tmp/ramdisk/
+```
+auto-mount on system boot
+```
+sudo nano /etc/fstab
+```
+add
+```
+myramdisk  /tmp/ramdisk  tmpfs  defaults,size=1G  0  0
+```
