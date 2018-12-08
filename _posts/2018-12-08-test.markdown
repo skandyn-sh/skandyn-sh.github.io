@@ -2,4 +2,4 @@ test
 test
 
 
-<a href="https://github.com/skandyn-sh/photos/index.html" target="_blank">
+<a href="https://github.com/skandyn-sh/photos/index.html" target="_blank">my config</a>
