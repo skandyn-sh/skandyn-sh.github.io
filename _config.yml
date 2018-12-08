@@ -7,3 +7,14 @@ url: "http://skandyn-sh.github.io" # the base hostname & protocol for your site,
 markdown: kramdown
 theme: minima
 
+--- 
+collections: 
+  photos: 
+    output: true
+defaults: 
+  - 
+    scope: 
+      path: 
+        type: photos
+    values: 
+      layout: photo
