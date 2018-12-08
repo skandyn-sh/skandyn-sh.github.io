@@ -2,7 +2,10 @@
  * Site header
  */
 .site-header {
-    min-height: 56px;
+    height: 55px;
+    background-color: #F5F5F5;
+    position: relative;
+    width: 100%;
 
     // Positioning context for the mobile navigation icon
     position: relative;
