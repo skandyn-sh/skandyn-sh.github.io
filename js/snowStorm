@@ -1,0 +1,4 @@
+Stop Snowing
+
+<a href="#" onclick="snowStorm.stop();return false">
+Stop Snowing</a> 
