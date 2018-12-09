@@ -2,7 +2,7 @@
 var snowMax = 150;
 
 // Snowflake Colours
-var snowColor = ["#e836d0", "#77e836"]; 
+var snowColor = ["#fff", "#ff0"]; 
 
 // Snow Entity
 var snowEntity = "&#x2022;";
