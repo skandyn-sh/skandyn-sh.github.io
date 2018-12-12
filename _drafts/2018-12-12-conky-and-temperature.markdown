@@ -1,5 +1,4 @@
 My conky temperature CPU
-
 ```
 mariusz@laptop-debian:~$ sensors
 coretemp-isa-0000
@@ -20,11 +19,13 @@ temp1:        +35.5°C
 mariusz@laptop-debian:~$ 
 
 ```
+hwmon
 ```
 mariusz@laptop-debian:~$ ls /sys/class/hwmon
 hwmon0  hwmon1  hwmon2
 mariusz@laptop-debian:~$ 
 ```
+hwmon name
 ```
 mariusz@laptop-debian:~$ cat /sys/class/hwmon/hwmon0/name
 acpitz
@@ -34,6 +35,7 @@ mariusz@laptop-debian:~$ cat /sys/class/hwmon/hwmon2/name
 coretemp
 mariusz@laptop-debian:~$ 
 ```
+conky
 ```
 Temp cpu1$alignr ${hwmon 2 temp 2}°C
 Temp cpu2$alignr ${hwmon 2 temp 3}°C
