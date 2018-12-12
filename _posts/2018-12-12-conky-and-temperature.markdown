@@ -1,4 +1,6 @@
 My conky temperature CPU
+
+sensors
 ```
 mariusz@laptop-debian:~$ sensors
 coretemp-isa-0000
@@ -17,7 +19,6 @@ Adapter: Virtual device
 temp1:        +35.5°C  
 
 mariusz@laptop-debian:~$ 
-
 ```
 hwmon
 ```
@@ -40,6 +41,8 @@ conky
 Temp cpu1$alignr ${hwmon 2 temp 2}°C
 Temp cpu2$alignr ${hwmon 2 temp 3}°C
 ```
+screenshot
+
 <img src="https://skandyn-sh.github.io/img/conky-cpu-temp.png"/>
 
 
