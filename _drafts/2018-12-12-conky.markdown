@@ -1,0 +1,5 @@
+
+
+sensors
+
+ls /sys/class/hwmon
