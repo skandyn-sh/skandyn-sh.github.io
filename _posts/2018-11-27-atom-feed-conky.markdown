@@ -6,9 +6,9 @@ my conky atom feed
 conkyrc
 ```
 Atom feed BunsenLabs
----------------------
+--------------------
 ${execi 300 $HOME/.config/conky/scripts/atomfeed.sh}
----------------------
+--------------------
 ```
 atomfeed.sh
 ```bash
