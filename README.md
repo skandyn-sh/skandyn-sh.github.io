@@ -1,1 +1,1 @@
-My simple blog - in progress
+My simple blog
