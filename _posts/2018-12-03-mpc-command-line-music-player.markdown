@@ -34,8 +34,7 @@ mpd.conf (pulseaudio) - copy and paste
 ```
 $ nano ~/.mpd/mpd.conf
 ```
-
-optionally, to disable automatic mpd startup at login
+disable automatic mpd startup at login (optional)
 ```
 $ sudo systemctl disable mpd
 $ sudo rm /etc/xdg/autostart/mpd.desktop
@@ -44,7 +43,7 @@ start
 ```
 $ mpc
 ```
-or if the mpd is disabled
+or (mpd disabled)
 ```
 $ mpd
 $ mpc
