@@ -1,4 +1,4 @@
-Cumulus Weather
+Cumulus is very beautiful
 
 <img src="https://skandyn-sh.github.io/img/cumulus.png"/>
 
