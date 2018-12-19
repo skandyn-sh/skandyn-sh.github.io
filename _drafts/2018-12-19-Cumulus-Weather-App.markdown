@@ -13,3 +13,7 @@ Choose background and text color
 Cumulus in my desktop
 
 <img src="https://skandyn-sh.github.io/img/cumulus-desktop.png"/>
+
+Cumulus - <a href="https://github.com/vadrian89/cumulus-qt/releases/" target="_blank">download</a>
+
+
