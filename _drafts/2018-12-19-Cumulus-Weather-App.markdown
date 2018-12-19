@@ -1,4 +1,4 @@
-Cumulus is very beautiful
+Cumulus is very beautiful app for Linux desktops
 
 <img src="https://skandyn-sh.github.io/img/cumulus.png"/>
 
