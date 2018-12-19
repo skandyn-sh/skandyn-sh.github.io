@@ -7,7 +7,7 @@ configure
 $ mkdir -p ~/.mutt/cache
 $ touch ~/.mutt/muttrc
 ```
-add the following lines to the file and then edit it "name, user, password"
+add the following lines to the file and then edit it "name, user and password"
 ```
 set from = "user@gmail.com"
 set realname = "Your Name"
