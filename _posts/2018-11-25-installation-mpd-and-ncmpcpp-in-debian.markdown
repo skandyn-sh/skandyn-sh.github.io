@@ -21,7 +21,7 @@ $ touch ~/.ncmpcpp/config
 ```
 $ nano ~/.ncmpcpp/config
 ```
-optionally, to disable automatic mpd startup at login
+disable automatic mpd startup at login (optional)
 ```
 $ sudo systemctl disable mpd
 $ sudo rm /etc/xdg/autostart/mpd.desktop
