@@ -1,8 +1,8 @@
-My new web browser
+My new web browser.
 
 <img src="https://skandyn-sh.github.io/img/vivaldi.png"/>
 
-Picture in picture mode (video player) in the Vivaldi web browser is cool
+Picture in picture mode (video player) in the Vivaldi web browser.
 
 <img src="https://skandyn-sh.github.io/img/picture-in-picture.png"/>
 
