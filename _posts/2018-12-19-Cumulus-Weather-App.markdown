@@ -10,7 +10,7 @@ Choose background and text color
 
 <img src="https://skandyn-sh.github.io/img/cumulus-choose.png"/>
 
-Cumulus in my desktop
+Cumulus on my desktop
 
 <img src="https://skandyn-sh.github.io/img/cumulus-desktop.png"/>
 
