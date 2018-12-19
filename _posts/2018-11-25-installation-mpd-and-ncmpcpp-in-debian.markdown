@@ -30,7 +30,7 @@ start
 ```
 $ ncmpcpp
 ```
-or if the mpd is disabled
+or (mpd disabled)
 ```
 $ mpd
 $ ncmpcpp
