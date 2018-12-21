@@ -1,4 +1,4 @@
-<font color="yellow"><marquee>Merry Christmas!            Wesołych Świąt</marquee></font>
+<font color="yellow"><marquee>Merry Christmas!</marquee></font>
 ```
                      *
                     ***
