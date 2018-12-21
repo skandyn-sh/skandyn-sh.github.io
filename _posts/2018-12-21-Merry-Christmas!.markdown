@@ -4,9 +4,9 @@
                     ***
                    *****
                   *******
-                 *********                        Merry Christmas
+                 *********                        Merry Christmas!
                 ***********
-               *************                           Wesołych Świąt
+               *************                           Wesołych Świąt!
               ***************
              *****************
             *******************
@@ -28,4 +28,4 @@
                   #######
                   #######
 ```
-<font color="green"><marquee>Merry Christmas!</marquee></font>
+<font color="yellow"><marquee>Merry Christmas!</marquee></font>
