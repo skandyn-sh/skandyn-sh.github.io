@@ -1,13 +1,14 @@
  <font color="yellow"><marquee>Merry Christmas!</marquee></font>
+ <font color="red"><marquee>Merry Christmas!</marquee></font>
 
 ```
                      *
                     ***
                    *****
                   *******
-                 *********                             Merry Christmas
+                 *********                        Merry Christmas
                 ***********
-               *************                            Wesołych Świąt
+               *************                           Wesołych Świąt
               ***************
              *****************
             *******************
