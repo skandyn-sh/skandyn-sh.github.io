@@ -14,6 +14,11 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;  
+    
+    &,
+    &:visited {
+        color: $grey-color-dark;
+    }
 }
 
 .site-nav {
@@ -150,7 +155,7 @@
 }
 
 .post-title {
-    font-size: 28px;
+    font-size: 24px;
     letter-spacing: -1px;
     line-height: 1;
 
