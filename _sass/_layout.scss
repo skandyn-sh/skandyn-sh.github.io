@@ -30,8 +30,13 @@
     }
 
     .page-link {
-        color: $text-color2;
+        //color: $text-color2;
         line-height: $base-line-height;
+        @keyframes mymove {
+            from {background-color: red;}
+            to {background-color: blue;}
+            
+        
         
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
