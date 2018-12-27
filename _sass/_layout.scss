@@ -35,7 +35,8 @@
         
         &:hover {
         color: $text-color3;
-                
+        
+        }    
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
             margin-left: 20px;
