@@ -1,4 +1,4 @@
-My conky temperature CPU
+Conky temperature CPU
 
 sensors
 ```
