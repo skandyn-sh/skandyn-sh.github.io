@@ -1,4 +1,4 @@
-Conky temperature CPU
+Conky temperature CPU (example)
 
 sensors
 ```
