@@ -10,18 +10,16 @@
 
 .site-title {
     font-size: 26px;
-    line-height: 56px;
+    color: $text-color2;
+    line-height: $base-line-height; 
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left; 
     
-    &, 
-    &:visited {
-        color: $grey-color-dark;
-   &:hover {
-   color: $text-color4;     
-   }    
-} 
+    &:hover {
+    color: $text-color4;     
+    }    
+ } 
 
 .site-nav {
     float: right;
