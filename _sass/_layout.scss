@@ -18,7 +18,9 @@
     &, 
     &:visited {
         color: $grey-color-dark;
-    }    
+   &:hover {
+   color: $text-color4;     
+   }    
 } 
 
 .site-nav {
