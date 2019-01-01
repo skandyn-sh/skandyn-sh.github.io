@@ -7,7 +7,7 @@ configure  mpd
 $ mkdir -p ~/.mpd/playlists
 $ touch ~/.mpd/mpd.conf
 ```
-<a href="https://github.com/skandyn-sh/mpd/blob/master/mpd.conf" target="_blank">mpd.conf</a> (pulseaudio) - copy and paste to mpd.conf
+<a href="https://github.com/skandyns/mpd/blob/master/mpd.conf" target="_blank">mpd.conf</a> (pulseaudio) - copy and paste to mpd.conf
 ```
 $ nano ~/.mpd/mpd.conf
 ```
@@ -16,7 +16,7 @@ configure ncmpcpp
 $ mkdir ~/.ncmpcpp
 $ touch ~/.ncmpcpp/config
 ```
-<a href="https://github.com/skandyn-sh/ncmpcpp/blob/master/config" target="_blank">config</a> - copy and paste to config
+<a href="https://github.com/skandyns/ncmpcpp/blob/master/config" target="_blank">config</a> - copy and paste to config
 
 ```
 $ nano ~/.ncmpcpp/config
@@ -37,9 +37,9 @@ $ ncmpcpp
 ```
 key u - update database
 
-<img src="https://skandyn-sh.github.io/img/ncmpcpp.png"/>
+<img src="https://skandyns.github.io/img/ncmpcpp.png"/>
 
-<a href="https://github.com/skandyn-sh/ncmpcpp/blob/master/ncmpcpp.png" target="_blank">that's my look ncmpcpp</a>
+<a href="https://github.com/skandyns/ncmpcpp/blob/master/ncmpcpp.png" target="_blank">that's my look ncmpcpp</a>
 
 ncmpcpp useful keyboard keys
 ```
