@@ -1,7 +1,7 @@
 
 my conky atom feed
 
-<img src="https://skandyn-sh.github.io/img/atom-feed.png"/>
+<img src="https://skandyns.github.io/img/atom-feed.png"/>
 
 conkyrc
 ```
