@@ -31,4 +31,4 @@ download - <a href="https://draculatheme.com/mutt/" target="_blank">dark theme</
 ```
 $ mutt
 ```
-<img src="https://skandyn-sh.github.io/img/mutt.png"/>
+<img src="https://skandyns.github.io/img/mutt.png"/>
