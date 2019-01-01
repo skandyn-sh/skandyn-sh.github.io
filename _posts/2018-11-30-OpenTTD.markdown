@@ -1,6 +1,6 @@
 OpenTTD - a real-time strategy game - I like it
 
-<img src="https://skandyn-sh.github.io/img/openttd.png"/>
+<img src="https://skandyns.github.io/img/openttd.png"/>
 
 OpenTTD - <a href="https://www.openttd.org/en/download-stable" target="_blank">Download</a>
 
