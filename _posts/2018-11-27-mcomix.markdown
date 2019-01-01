@@ -1,6 +1,6 @@
 my favorite comic reader
 
-<img src="https://skandyn-sh.github.io/img/mcomix.png"/>
+<img src="https://skandyns.github.io/img/mcomix.png"/>
 
 ```
 $ sudo apt install mcomix
