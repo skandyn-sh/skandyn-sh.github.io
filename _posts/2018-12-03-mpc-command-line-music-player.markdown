@@ -48,7 +48,7 @@ or (mpd disabled)
 $ mpd
 $ mpc
 ```
-<img src="https://skandyn-sh.github.io/img/mpc.png"/>
+<img src="https://skandyns.github.io/img/mpc.png"/>
 
 help my
 ```
