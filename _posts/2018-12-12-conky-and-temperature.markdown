@@ -43,6 +43,6 @@ Temp cpu2$alignr ${hwmon 2 temp 3}°C
 ```
 screenshot
 
-<img src="https://skandyn-sh.github.io/img/conky-cpu-temp.png"/>
+<img src="https://skandyns.github.io/img/conky-cpu-temp.png"/>
 
 
