@@ -4,11 +4,11 @@ My favorite simple radio (command line)
 
 Keys
 
-k 	stop 
+k -	stop 
 
-f 	add to favorites
+f -	add to favorites
 
-q 	quit
+q -	quit
 
 
 
