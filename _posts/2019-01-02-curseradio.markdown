@@ -1,4 +1,4 @@
-My favorite simple radio (command line)
+My favorite simple radio.
 
 <img src="https://skandyns.github.io/img/curseradio.png"/>
 
