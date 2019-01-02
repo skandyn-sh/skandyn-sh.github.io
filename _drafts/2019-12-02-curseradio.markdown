@@ -5,5 +5,5 @@ My favorite simple radio (command line)
 Keys
 k 	stop 
 q 	quit
-f 	toggle favourite
+f 	add to favorites
 
