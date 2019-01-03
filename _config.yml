@@ -7,3 +7,6 @@ url: "http://skandyn-sh.github.io" # the base hostname & protocol for your site,
 markdown: kramdown
 theme: minima
 paginate: 5
+
+plugins:
+- jekyll-paginate
