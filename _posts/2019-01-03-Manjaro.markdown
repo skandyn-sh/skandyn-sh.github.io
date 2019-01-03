@@ -1,0 +1,3 @@
+Manjaro i3 tested on a virtual machine - cool distro.
+
+<img src="https://skandyns.github.io/img/manjaro-i3.png"/>
