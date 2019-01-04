@@ -6,3 +6,6 @@ url: "http://skandyn-sh.github.io" # the base hostname & protocol for your site,
 # Build settings
 markdown: kramdown
 theme: minima
+
+paginate: 6
+paginate_path: /posts/page:num/
