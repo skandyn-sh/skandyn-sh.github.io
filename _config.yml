@@ -8,4 +8,4 @@ markdown: kramdown
 theme: minima
 
 paginate: 10
-/page:num
+paginate_path: "/page-:num/"
