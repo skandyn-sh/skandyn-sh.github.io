@@ -11,4 +11,5 @@ theme: minima
 # paginate_path: "/blog/page:num/"
 gems:
 - jekyll-paginate
+paginate_path: "/page:num/"
 paginate: 5
