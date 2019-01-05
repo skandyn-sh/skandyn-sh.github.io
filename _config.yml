@@ -4,6 +4,8 @@ url: "http://skandyn-sh.github.io"
 # Build settings
 markdown: kramdown
 theme: minima
+plugins_dir:
+- jekyll-paginate-v2
 
 pagination:
   enabled: true
