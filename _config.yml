@@ -5,3 +5,5 @@ url: "http://skandyn-sh.github.io"
 markdown: kramdown
 theme: minima
 
+paginate: 8
+
