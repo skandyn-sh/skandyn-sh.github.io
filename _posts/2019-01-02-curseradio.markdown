@@ -9,3 +9,5 @@ k -	stop
 f -	add to favorites
 
 q -	quit
+
+Curseradio on <a href="https://https://github.com/chronitis/curseradio" target="_blank">GitHub</a>https://github.com/chronitis/curseradio
