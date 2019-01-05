@@ -5,6 +5,11 @@ url: "http://skandyn-sh.github.io"
 markdown: kramdown
 theme: minima
 
-paginate: 8
-paginate_path: "/blog/page:num/"
-paginate_path: "/page2/page:num/"
+pagination:
+  enabled: true
+  per_page: 3
+  permalink: '/page/:num/'
+  title_suffix: ' - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
