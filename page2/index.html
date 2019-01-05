@@ -1,0 +1,23 @@
+<!-- render pagination links if there are more than one pages -->
+{％ if paginator.total_pages > 1 ％}
+<div class="pagination">    
+  {％ if paginator.previous_page ％}
+    <!-- special case the second page to link back to index.html -->
+    {％ if paginator.page == 2 ％}
+      <a href="https:http://skandyn-sh.github.io">&laquo; Prev</a>
+    {％ else ％}
+      <a href="https:http://skandyn-sh.github.io/page/">&laquo; Prev</a>
+    {％ endif ％}    
+  {％ else ％}
+    <!-- if no 'previous' pages exit, render a span rather than an anchor -->
+    <span>&laquo; Prev</span>
+  {％ endif ％}
+
+  {％ if paginator.next_page ％}    
+    <a class='next' href="https://www.scottlogic.com/page/">Next &raquo;</a>
+  {％ else ％}
+    <!-- if no 'next' pages exit, render a span rather than an anchor -->
+    <span class='next'>Next &raquo;</span>
+  {％ endif ％}
+</div>
+{％ endif ％}
