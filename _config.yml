@@ -4,14 +4,6 @@ url: "http://skandyn-sh.github.io"
 # Build settings
 markdown: kramdown
 theme: minima
-plugins_dir:
-- jekyll-paginate-v2
 
-pagination:
-  enabled: true
-  per_page: 3
-  permalink: '/page/:num/'
-  title_suffix: ' - page :num'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
+paginate: 3
+paginate_path: "/legacy/page:num/"
