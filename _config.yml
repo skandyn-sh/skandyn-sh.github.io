@@ -5,5 +5,5 @@ url: "https://skandyns.github.io"
 markdown: kramdown
 theme: minima
 
-paginate: 6
+paginate: 10
 paginate_path: /page:num/
