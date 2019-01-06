@@ -4,3 +4,6 @@ url: "https://skandyns.github.io"
 # Build settings
 markdown: kramdown
 theme: minima
+
+paginate: 6
+paginate_path: /page:num/
