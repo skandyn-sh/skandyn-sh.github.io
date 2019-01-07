@@ -1,4 +1,4 @@
-I like fish shell.
+Friendly interactive shell - I like it so much.
 
 <img src="https://skandyns.github.io/img/fish.png"/>
 
