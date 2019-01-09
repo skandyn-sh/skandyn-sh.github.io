@@ -16,6 +16,64 @@ REFERENCES "forum" ("id");
 insert into "topic" ("forum_id", "subject")
 values (2, 'D''artagnian');</code></pre>
 
-<pre><code class="plaintext">...</code></pre>
+<pre><code class="plaintext">import Html exposing (div, button, text)
+import Html.App exposing (beginnerProgram)
+import Html.Events exposing (onClick)
 
-<pre><code class="nohighlight">...</code></pre>
+type Msg
+    = Increment
+
+main =
+    beginnerProgram
+        { model = 0, view = view
+        , update = \Increment model -> model + 1 }
+
+view model =
+    div [] [ div [] [ text (toString model) ]
+           , button [ onClick Increment ] [ text "+" ] ]
+
+chars =
+    String.cons 'C' <| String.cons 'h' <| "ars"
+language: elm style: color-brewer
+185 languages and 89 styles
+automatic language detection
+multi-language code highlighting
+available for node.js
+works with any markup
+compatible with any js framework
+Get version 9.13.1
+Usage
+
+Contribute
+</code></pre>
+
+<pre><code class="nohighlight">import Html exposing (div, button, text)
+import Html.App exposing (beginnerProgram)
+import Html.Events exposing (onClick)
+
+type Msg
+    = Increment
+
+main =
+    beginnerProgram
+        { model = 0, view = view
+        , update = \Increment model -> model + 1 }
+
+view model =
+    div [] [ div [] [ text (toString model) ]
+           , button [ onClick Increment ] [ text "+" ] ]
+
+chars =
+    String.cons 'C' <| String.cons 'h' <| "ars"
+language: elm style: color-brewer
+185 languages and 89 styles
+automatic language detection
+multi-language code highlighting
+available for node.js
+works with any markup
+compatible with any js framework
+Get version 9.13.1
+Usage
+
+Contribute
+</code></pre>
