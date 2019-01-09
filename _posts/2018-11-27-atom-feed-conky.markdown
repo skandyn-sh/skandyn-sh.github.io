@@ -16,7 +16,7 @@ atomfeed.sh
 URL="https://forums.bunsenlabs.org/extern.php?action=feed&type=atom"
 curl -s "$URL" | grep "<title" | grep -o -P '(?<=CDATA\[).*(?=\]\])'| tail -n +2 | head -n 7 | sed 's/^//'
 ```
-<link rel="stylesheet" href="/css/solarized-dark.css">
+<link rel="stylesheet" href="/css/atom-one-dark.css">
 <script src="/js/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
