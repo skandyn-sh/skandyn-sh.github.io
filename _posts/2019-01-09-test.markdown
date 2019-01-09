@@ -1,5 +1,5 @@
 test
-<link rel="stylesheet" href="/css/darkula.css">
+<link rel="stylesheet" href="/css/default.css">
 <script src="/js/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
@@ -15,3 +15,7 @@ REFERENCES "forum" ("id");
 -- Initials
 insert into "topic" ("forum_id", "subject")
 values (2, 'D''artagnian');</code></pre>
+
+<pre><code class="plaintext">...</code></pre>
+
+<pre><code class="nohighlight">...</code></pre>
