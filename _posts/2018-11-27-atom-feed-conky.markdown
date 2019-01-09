@@ -19,5 +19,8 @@ curl -s "$URL" | grep "<title" | grep -o -P '(?<=CDATA\[).*(?=\]\])'| tail -n +2
 <link rel="stylesheet" href="/css/atom-one-dark.css">
 <script src="/js/highlight.pack.js"></script>
 
+<pre><code class="html">#!/bin/bash
+URL="https://forums.bunsenlabs.org/extern.php?action=feed&type=atom"
+curl -s "$URL" | grep "<title" | grep -o -P '(?<=CDATA\[).*(?=\]\])'| tail -n +2 | head -n 7 | sed 's/^//'</code></pre>
 
 
