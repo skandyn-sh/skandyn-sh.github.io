@@ -1,6 +1,5 @@
 <link rel="stylesheet" href="/css/solarized-dark.css">
 <script src="/js/highlight.pack.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
 
 My conky atom feed
 
