@@ -1,0 +1,46 @@
+<link rel="stylesheet" href="/css/solarized-dark.css">
+<script src="/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+<pre><code class="html">package main
+
+import "fmt"
+
+func main() {
+    ch := make(chan float64)
+    ch <- 1.0e10    // magic number
+    x, ok := <- ch
+    defer fmt.Println(`exitting now\`)
+    go println(len("hello world!"))
+    return
+}</code></pre>
+
+
+<pre><code class="plaintext">package main
+
+import "fmt"
+
+func main() {
+    ch := make(chan float64)
+    ch <- 1.0e10    // magic number
+    x, ok := <- ch
+    defer fmt.Println(`exitting now\`)
+    go println(len("hello world!"))
+    return
+}</code></pre>
+
+
+
+<pre><code class="nohighlight">package main
+
+import "fmt"
+
+func main() {
+    ch := make(chan float64)
+    ch <- 1.0e10    // magic number
+    x, ok := <- ch
+    defer fmt.Println(`exitting now\`)
+    go println(len("hello world!"))
+    return
+}</code></pre>
