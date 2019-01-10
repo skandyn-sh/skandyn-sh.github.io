@@ -11,6 +11,9 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
   background: #002b36;
   color: #839496;
 }
+.code {
+    padding: 1px 5px;
+}
 
 .hljs-comment,
 .hljs-quote {
