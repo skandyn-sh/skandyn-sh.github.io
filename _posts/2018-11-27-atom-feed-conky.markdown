@@ -7,19 +7,12 @@ My conky atom feed
 <img src="https://skandyns.github.io/img/atom-feed.png"/>
 
 conky
-
-```
-Atom feed BunsenLabs
+<pre><code class="plaintext">Atom feed BunsenLabs
 --------------------
 ${execi 300 $HOME/.config/conky/scripts/atomfeed.sh}
---------------------
-```
+--------------------</code></pre>
+
 atomfeed.sh
-```
-#!/bin/bash
-URL="https://forums.bunsenlabs.org/extern.php?action=feed&type=atom"
-curl -s "$URL" | grep "<title" | grep -o -P '(?<=CDATA\[).*(?=\]\])'| tail -n +2 | head -n 7 | sed 's/^//'
-```
 
 <pre><code class="plaintext">#!/bin/bash
 URL="https://forums.bunsenlabs.org/extern.php?action=feed&type=atom"
