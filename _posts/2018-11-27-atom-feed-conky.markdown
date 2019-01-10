@@ -3,6 +3,12 @@ My conky atom feed
 <img src="https://skandyns.github.io/img/atom-feed.png"/>
 
 conky
+<pre><code class="html">Atom feed BunsenLabs
+--------------------
+${execi 300 $HOME/.config/conky/scripts/atomfeed.sh}
+--------------------</code></pre>
+
+
 ```
 Atom feed BunsenLabs
 --------------------
