@@ -16,7 +16,7 @@ Tilix on <a href="https://github.com/gnunn1/tilix" target="_blank">GitHub</a>
 
 
 <form action="/html/tags/html_form_tag_action.cfm" method="post">
-<textarea name="comments" id="comments" style="width:96%;height:90px;background-color:gold;color:olive;border:none;padding:2%;font:22px/30px sans-serif;">
+<textarea name="comments" id="comments" style="width:46%;height:40px;background-color:gold;color:olive;border:none;padding:2%;font:22px/30px sans-serif;">
 Need background colors on your text box?
 </textarea>
 </form>
