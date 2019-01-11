@@ -1,3 +1,9 @@
 <link rel="stylesheet" href="/css/solarized-dark.css">
 <script src="/js/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
+
+<form action="/html/tags/html_form_tag_action.cfm" method="post">
+<textarea name="comments" id="comments" style="width:96%;height:90px;background-color:gold;color:olive;border:none;padding:2%;font:22px/30px sans-serif;">
+Need background colors on your text box?
+</textarea>
+</form>
