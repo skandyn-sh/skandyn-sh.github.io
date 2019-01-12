@@ -10,4 +10,4 @@ Text clock conky on my desktop.
 
 <img src="https://skandyns.github.io/img/qlocktwo-conky-desktop.png"/>
 
-Qlocktwo conky - <a href="https://github.com/skandyns/qlocktwo-conky" target="_blank">Download</a>
+qlocktwo conky - <a href="https://github.com/skandyns/qlocktwo-conky" target="_blank">Download</a>
