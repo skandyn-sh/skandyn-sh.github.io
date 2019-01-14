@@ -1,4 +1,4 @@
 title: blog ...
 url: "https://skandyns.github.io" 
-paginate: 4
+paginate: 10
 paginate_path: /page:num/
