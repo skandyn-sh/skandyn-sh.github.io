@@ -1,0 +1,176 @@
+---
+layout: page
+title: MUSIC
+permalink: /music/
+---
+Free beautiful music
+<p style="padding-bottom: 1px"></p>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<!-- Website Design By: www.happyworm.com -->
+<title>Demo : jPlayer as a text based audio player</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="/js/jquery.jplayer.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+$(document).ready(function(){
+	// Local copy of jQuery selectors, for performance.
+	var	my_jPlayer = $("#jquery_jplayer"),
+		my_trackName = $("#jp_container .track-name"),
+		my_playState = $("#jp_container .play-state"),
+		my_extraPlayInfo = $("#jp_container .extra-play-info");
+	// Some options
+	var	opt_play_first = false, // If true, will attempt to auto-play the default track on page loads. No effect on mobile devices, like iOS.
+		opt_auto_play = true, // If true, when a track is selected, it will auto-play.
+		opt_text_playing = "Now playing", // Text when playing
+		opt_text_selected = "Track selected"; // Text when not playing
+	// A flag to capture the first track
+	var first_track = true;
+	// Change the time format
+	$.jPlayer.timeFormat.padMin = false;
+	$.jPlayer.timeFormat.padSec = false;
+	$.jPlayer.timeFormat.sepMin = " min ";
+	$.jPlayer.timeFormat.sepSec = " sec";
+	// Initialize the play state text
+	my_playState.text(opt_text_selected);
+	// Instance jPlayer
+	my_jPlayer.jPlayer({
+		ready: function () {
+			$("#jp_container .track-default").click();
+		},
+		timeupdate: function(event) {
+			my_extraPlayInfo.text(parseInt(event.jPlayer.status.currentPercentAbsolute, 10) + "%");
+		},
+		play: function(event) {
+			my_playState.text(opt_text_playing);
+		},
+		pause: function(event) {
+			my_playState.text(opt_text_selected);
+		},
+		ended: function(event) {
+			my_playState.text(opt_text_selected);
+		},
+		swfPath: "../../dist/jplayer",
+		cssSelectorAncestor: "#jp_container",
+		supplied: "mp3",
+		wmode: "window"
+	});
+	// Create click handlers for the different tracks
+	$("#jp_container .track").click(function(e) {
+		my_trackName.text($(this).text());
+		my_jPlayer.jPlayer("setMedia", {
+			mp3: $(this).attr("href")
+		});
+		if((opt_play_first && first_track) || (opt_auto_play && !first_track)) {
+			my_jPlayer.jPlayer("play");
+		}
+		first_track = false;
+		$(this).blur();
+		return false;
+	});
+});
+//]]>
+</script>
+
+<style>
+<!--
+.demo-container {
+	border: 1px solid #ffffff;
+	padding:0 20px;
+	font-family: "Myriad Pro Regular","Trebuchet MS";
+}
+.demo-container a, .demo-container a:link, .demo-container a:visited, .demo-container a:hover, .demo-container a:focus, .demo-container a:active {
+	color: #009BE3;
+}
+.demo-container ul {
+	list-style-type:none;
+	padding:0;
+	margin:1em 0;
+	width:100%;
+	overflow:hidden;
+}
+.demo-container ul span {
+	color: #A0A600;
+}
+.demo-container li {
+	float:left;
+	margin-right:1em;
+}
+.demo-container p span.track-name {
+	color: #CC0090;
+}
+-->
+</style>
+</head>
+<body>
+		<div id="jquery_jplayer"></div>
+		<!-- Using the cssSelectorAncestor option with the default cssSelector class names to enable control association of standard functions using built in features -->
+		<div id="jp_container" class="demo-container">
+			<ul>
+				<li><span>Select a track : </span></li>						
+				<li><a href="https://skandyns.github.io/assets/music/Easy _ wowa.me CC0 Free Beautiful Music.mp3" class="track">Easy</a></li>
+				<li> | </li>
+				<li><a href="https://skandyns.github.io/assets/music/Just Cool _ www.wowa.me.mp3" class="track">Just Cool</a></li>
+				<li> | </li>
+ 				<li><a href="https://skandyns.github.io/assets/music/Pipo Interludo _ www.wowa.me.mp3" class="track">Pipo Interludo</a></li>
+				<li> | </li>
+				<li><a href="https://skandyns.github.io/assets/music/They Say _ www.wowa.me.mp3" class="track">They Say</a></li>
+				<li> | </li>
+				<li><a href="https://skandyns.github.io/assets/music/Blue Sky _ www.wowa.me.mp3" class="track">Blue Sky</a></li>
+				<li> | </li>
+				<li><a href="https://skandyns.github.io/assets/music/Kring _ www.wowa.me.mp3" class="track">Kring</a></li>
+				<li> | </li>
+				<li><a href="https://skandyns.github.io/assets/music/Please Wait _ www.wowa.me.mp3" class="track">Please Wait</a></li>
+				<li> | </li>
+				<li><a href="https://skandyns.github.io/assets/music/White _ www.wowa.me.mp3" class="track">White</a></li>
+				<li> | </li>
+				<li><a href="https://skandyns.github.io/assets/music/draft monk - ambience.mp3" class="track">Draft monk</a></li>
+				<li> | </li>
+				<li><a href="https://skandyns.github.io/assets/music/Viviq _ www.wowa.me.mp3" class="track">Viviq</a></li>
+				<li> | </li>
+				<li><a href="https://skandyns.github.io/assets/music/Epic Agent - Free.mp3" class="track">Epic Agent</a></li>
+				<li> | </li>
+				<li><a href="https://skandyns.github.io/assets/music/Voisin _ www.wowa.me.mp3" class="track">Voisin</a></li>
+				<li> | </li>
+				<li><a href="https://skandyns.github.io/assets/music/Electric Arpeggio.mp3" class="track">Electric Arpeggio</a></li>
+				<li> | </li>
+				<li><a href="https://skandyns.github.io/assets/music/ocean of ice.mp3" class="track">Ocean of ice</a></li>
+				<li> | </li>
+				<li><a href="https://skandyns.github.io/assets/music/Seisemic.mp3" class="track">Seisemic</a></li>
+				<li> | </li>
+				<li><a href="https://skandyns.github.io/assets/music/Gasoline.mp3" class="track">Gasoline</a></li>
+				<li> | </li>
+				<li><a href="https://skandyns.github.io/assets/music/Hot Move - Free.mp3" class="track">Hot Move</a></li>
+				<li> | </li>
+				<li><a href="https://skandyns.github.io/assets/music/Mystical Journey - Free.mp3" class="track">Mystical Journey</a></li>
+				<li> | </li>
+				<li><a href="https://skandyns.github.io/assets/music/Piratos _ www.wowa.me.mp3" class="track">Piratos</a></li>
+				<li> | </li>
+				<li><a href="https://skandyns.github.io/assets/music/Top Gear.mp3" class="track">Top Gear</a></li>															
+			</ul>
+			<p>
+				<span class="play-state"></span> :
+				<span class="track-name">nothing</span>
+				at <span class="extra-play-info"></span>
+				of <span class="jp-duration"></span>, which is
+				<span class="jp-current-time"></span>
+			</p>
+			<ul>
+				<li><a class="jp-play" href="#">Play</a></li>
+				<li><a class="jp-pause" href="#">Pause</a></li>
+				<li><a class="jp-stop" href="#">Stop</a></li>
+			</ul>
+			<ul>
+				<li>volume :</li>
+				<li><a class="jp-mute" href="#">Mute</a></li>
+				<li><a class="jp-unmute" href="#">Unmute</a></li>
+				<li> <a class="jp-volume-bar" href="#">|&lt;----------&gt;|</a></li>
+				<li><a class="jp-volume-max" href="#">Max</a></li>
+			</ul>
+		</div>
+</body>
+</html>	
