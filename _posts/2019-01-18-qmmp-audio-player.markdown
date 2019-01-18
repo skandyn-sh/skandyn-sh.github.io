@@ -9,7 +9,7 @@ Qmmp on my desktop.
 ```
 sudo apt install qmmp
 ```
-Plugin projectM
+Plugin projectM (music visualizer)
 ```
 sudo apt install qmmp-plugin-projectm
 ```
