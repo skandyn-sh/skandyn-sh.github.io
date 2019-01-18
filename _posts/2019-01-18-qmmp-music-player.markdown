@@ -1,4 +1,4 @@
-My next music player.
+My next audio player.
 
 <img src="https://skandyns.github.io/img/qmmp.png"/>
 
