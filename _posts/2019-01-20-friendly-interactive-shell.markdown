@@ -11,7 +11,7 @@ function fish_prompt
     set_color $t -b $b
     echo -n " "(basename $PWD)" "
     set_color $a -b normal
-    echo " ❯❯❯ "
+    echo "❯❯❯"
 end
 ```
 Install
