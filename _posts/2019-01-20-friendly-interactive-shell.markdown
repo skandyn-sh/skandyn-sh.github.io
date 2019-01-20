@@ -1,4 +1,4 @@
-My favorite shell.
+Fish is my favorite shell.
 
 <img src="https://skandyns.github.io/img/fish-shell.png"/>
 
@@ -14,6 +14,7 @@ function fish_prompt
     echo " ❯❯❯ "
 end
 ```
+Install
 ```
 sudo apt install fish
 ```
