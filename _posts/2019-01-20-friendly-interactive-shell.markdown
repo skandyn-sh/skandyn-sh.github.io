@@ -1,6 +1,6 @@
 The fish shell is very cool.
 
-<img src="https://skandyns.github.io/img/fish_shell.png"/>
+<img src="https://skandyns.github.io/img/fish_prompt.png"/>
 
 My simple prompt (fish_prompt.fish)
 ```
