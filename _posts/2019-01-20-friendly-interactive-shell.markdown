@@ -14,15 +14,15 @@ function fish_prompt
     echo " ❯❯❯ "
 end
 ```
-Install.
+Install
 ```
 sudo apt install fish
 ```
-Switching to fish (default shell).
+Switching to fish (default shell)
 ```
 chsh -s /usr/bin/fish
 ```
-Back to bash (default shell).
+Back to bash (default shell)
 ```
 chsh -s /bin/bash
 ```
