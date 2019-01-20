@@ -2,7 +2,7 @@ The fish shell is very cool.
 
 <img src="https://skandyns.github.io/img/fish-shell.png"/>
 
-My simple prompt (fish_prompt.fish).
+My simple prompt (fish_prompt.fish)
 ```
 function fish_prompt
     set -l t ffffff
