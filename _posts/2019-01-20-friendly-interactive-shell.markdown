@@ -1,4 +1,4 @@
-Fish is my favorite shell.
+The fish shell is very cool.
 
 <img src="https://skandyns.github.io/img/fish-shell.png"/>
 
