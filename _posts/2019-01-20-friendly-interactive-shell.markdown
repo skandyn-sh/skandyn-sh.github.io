@@ -1,3 +1,9 @@
+<link rel="stylesheet" href="/css/zenburn.css">
+<script src="/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
 The fish shell is very cool.
 
 <img src="https://skandyns.github.io/img/fish_prompt.png"/>
