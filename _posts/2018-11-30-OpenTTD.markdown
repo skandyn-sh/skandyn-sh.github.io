@@ -5,8 +5,3 @@ OpenTTD - a real-time strategy game - I like it
 OpenTTD >  >  > <a href="https://www.openttd.org/en/download-stable" target="_blank"><button class="button-download pure-button">DOWNLOAD</button></a>
 
 OpenTTD on > > > <a href="https://github.com/OpenTTD/OpenTTD" target="_blank"><button class="button-github pure-button">GitHub</button></a>
-
-OpenTTD on <a href="https://www.openttd.org/en/download-stable" target="_blank">Download</a>
-
-OpenTTD on <a href="https://github.com/OpenTTD/OpenTTD" target="_blank">GitHub</a>
- 
