@@ -14,4 +14,4 @@ Cumulus on my desktop
 
 <img src="https://skandyns.github.io/img/cumulus-desktop.png"/>
 
-Cumulus - <a href="https://github.com/vadrian89/cumulus-qt/releases/" target="_blank">download</a>
+Cumulus >  >  > <a href="https://github.com/vadrian89/cumulus-qt/releases/" target="_blank"><button class="button-download pure-button">DOWNLOAD</button></a>
