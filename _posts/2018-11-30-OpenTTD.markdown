@@ -3,4 +3,5 @@ OpenTTD - a real-time strategy game - I like it
 <img src="https://skandyns.github.io/img/openttd.png"/>
 
 OpenTTD >  >  > <a href="https://www.openttd.org/en/download-stable" target="_blank"><button class="button-download button-small pure-button">DOWNLOAD</button></a> 
+
 OpenTTD on <a href="https://github.com/OpenTTD/OpenTTD" target="_blank"><button class="button-github button-small pure-button">GitHub</button></a>
