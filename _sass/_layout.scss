@@ -30,8 +30,9 @@
         color: $text-color2;
         padding: 0 0.5rem;
         line-height: 2.5;
-        display: inline-block;          
+        display: inline-block; 
         
+        &,
         &:visited {
         color: $text-color4;
         text-decoration: none;
