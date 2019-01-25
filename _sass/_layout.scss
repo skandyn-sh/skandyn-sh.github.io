@@ -28,13 +28,11 @@
 
     .page-link {
         color: $text-color2;        
+       display: inline-block;
         
         &:visited {
         color: $text-color4;
-        display: inline-block;     
-        text-decoration: none;
-        transition: 250ms color ease;    
-        
+                
         }    
         &:not(:first-child) {
             margin-left: 20px;
