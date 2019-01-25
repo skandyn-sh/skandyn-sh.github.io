@@ -1,0 +1,12 @@
+# menu.yml contents
+
+- name: About
+  url: "/author/"
+- name: Contact
+  url: "/contact/"
+- name: Codelog
+  url: "/codelog/"
+- name: Prot16
+  url: "/schemes/"
+- name: Akademos
+  url: "/akademos/"
