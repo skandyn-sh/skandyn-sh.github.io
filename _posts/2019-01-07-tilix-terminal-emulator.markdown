@@ -10,6 +10,6 @@ command
 ```
 tilix --quake
 ```
-Tilix - <a href="https://gnunn1.github.io/tilix-web/" target="_blank">Download</a>
+<a href="https://gnunn1.github.io/tilix-web/" target="_blank"><button class="button-download button-small pure-button">Download Tilix</button></a> 
 
-Tilix on <a href="https://github.com/gnunn1/tilix" target="_blank">GitHub</a>
+<a href="https://github.com/OpenTTD/OpenTTD" target="_blank"><button class="button-github button-small pure-button">Tilix on GitHub</button></a>
