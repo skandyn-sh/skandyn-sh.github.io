@@ -22,7 +22,8 @@
 .site-nav {
     float: right;
     line-height: 56px;
-
+    display:inline-block;
+    
     .menu-icon {
         display: none;
     }
@@ -31,10 +32,7 @@
         color: $text-color2;
         font-weight: bold;
         line-height: $base-line-height; 
-        display:inline-block;
-        float: left;
-        margin-right: 1px;
-                
+                        
         &:hover {
         color: $text-color4;
                     
