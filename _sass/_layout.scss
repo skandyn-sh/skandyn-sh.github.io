@@ -28,8 +28,12 @@
 
     .page-link {
         color: $text-color2;
-        display: inline-block;
-          
+     }    
+    .custom-restricted-width {
+     display: inline-block;
+    
+} 
+        
         
         &:hover {
         color: $text-color4;
