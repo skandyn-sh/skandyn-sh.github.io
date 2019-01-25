@@ -1,11 +1,8 @@
-- title: About
-  url: /about.html
-- title: Team
-  url: /team.html
-- title: Contact
-  url: /contact.html
-- title: Store
-  url: /store.html
-- title: Support
-  url: /support.html
-  
+- link: /
+  name: Home
+- link: /about/
+  name: About
+- link: /services
+  name: Services
+- link: /contact/
+  name: Contact 
