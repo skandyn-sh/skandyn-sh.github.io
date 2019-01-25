@@ -1,6 +1,6 @@
 My next audio player.
 
-<img src="https://skandyns.github.io/img/qmmp.png"/><img src="https://skandyns.github.io/img/qmmp-neon.png"/>
+<img src="https://skandyns.github.io/img/qmmp.png"/>
 
 Qmmp on my desktop.
 
