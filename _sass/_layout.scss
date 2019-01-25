@@ -28,12 +28,7 @@
 
     .page-link {
         color: $text-color2;
-         
-    .custom-restricted-width {
-     display: inline-block;
-    
-} 
-        
+        line-height: $base-line-height;          
         
         &:hover {
         color: $text-color4;
