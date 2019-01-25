@@ -28,7 +28,8 @@
 
     .page-link {
         color: $text-color2;        
-       display: inline-block;
+        display: inline-block;
+        border: 1px solid #0080ff;
         
         &:visited {
         color: $text-color4;
