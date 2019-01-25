@@ -10,4 +10,4 @@ f -	add to favorites
 
 q -	quit
 
-Curseradio on <a href="https://github.com/chronitis/curseradio" target="_blank">GitHub</a>
+<a href="https://github.com/chronitis/curseradio" target="_blank"><button class="button-github button-small pure-button">Curseradio on GitHub</button></a>
