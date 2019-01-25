@@ -10,6 +10,6 @@ temps on my desktop
 
 <img src="https://skandyns.github.io/img/temps3.png"/>
 
-temps - <a href="https://jackd248.github.io/temps/" target="_blank">download</a>
+<a href="http://qmmp.ylsoftware.com/files/skins/qmmp-skins/" target="_blank"><button class="button-download button-small pure-button">Download temps</button></a>
 
-temps on <a href="https://github.com/jackd248/temps" target="_blank">GitHub</a>
+<a href="http://qmmp.ylsoftware.com/files/skins/qmmp-skins/" target="_blank"><button class="button-github button-small pure-button">temps on GitHub</button></a>
