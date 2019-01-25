@@ -27,12 +27,8 @@
     }
 
     .page-link {
-        color: $text-color2;
-        padding: 0 0.5rem;
-        line-height: 2.5;
+        color: $text-color2;        
         
-        
-        &,
         &:visited {
         color: $text-color4;
         display: inline-block;     
