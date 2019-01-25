@@ -29,14 +29,10 @@
     .page-link {
         color: $text-color2;
         line-height: $base-line-height; 
-        box-sizing: border-box;
-        color: #88ae04;
-        
+                
         &:hover {
         color: $text-color4;
-        box-sizing: border-box;
-        color: #88ae04;    
-            
+                    
         }    
         &:not(:first-child) {
             margin-left: 20px;
