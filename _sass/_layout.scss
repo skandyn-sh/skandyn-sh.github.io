@@ -27,13 +27,12 @@
     }
 
     .page-link {
-        color: $text-color2;        
-        display: inline-block;
-        border: 1px solid #0080ff;
+        color: $text-color2;
+        line-height: $base-line-height;          
         
-        &:visited {
+        &:hover {
         color: $text-color4;
-                
+                        
         }    
         &:not(:first-child) {
             margin-left: 20px;
