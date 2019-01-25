@@ -186,7 +186,6 @@
     text-align: center;
  }
 
-.button a,
 .button-download,
 .button-github {
             color: white;
@@ -206,10 +205,3 @@
         .button-github {
             background: rgb(223, 117, 20);
         }
-
-.button a {
-        &:hover {
-        background-color: #fff;
-        color: #000;
-    }
-}
