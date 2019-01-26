@@ -7,7 +7,7 @@ configure  mpd
 $ mkdir -p ~/.mpd/playlists
 $ touch ~/.mpd/mpd.conf
 ```
-<a href="https://github.com/skandyns/mpd/blob/master/mpd.conf" target="_blank">mpd.conf</a> (pulseaudio) - copy and paste
+<a href="https://github.com/skandyns/mpd/blob/master/mpd.conf" target="_blank"><button class="button-download button-small button-small pure-button">mpd.conf (pulseaudio)</button></a>
 ```
 $ nano ~/.mpd/mpd.conf
 ```
@@ -16,8 +16,7 @@ configure ncmpcpp
 $ mkdir ~/.ncmpcpp
 $ touch ~/.ncmpcpp/config
 ```
-<a href="https://github.com/skandyns/ncmpcpp/blob/master/config" target="_blank">config</a> - copy and paste
-
+<a href="https://github.com/skandyns/ncmpcpp/blob/master/config" target="_blank"><button class="button-download button-small button-small pure-button">config</button></a>
 ```
 $ nano ~/.ncmpcpp/config
 ```
