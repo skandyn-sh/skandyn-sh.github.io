@@ -27,7 +27,7 @@ set imap_keepalive = 900
 ```
 $ nano ~/.mutt/muttrc
 ```
-download - <a href="https://draculatheme.com/mutt/" target="_blank">dark theme</a> and install
+<a href="https://draculatheme.com/mutt/" target="_blank"><button class="button-download button-small pure-button">Download  dark theme</button></a>
 ```
 $ mutt
 ```
