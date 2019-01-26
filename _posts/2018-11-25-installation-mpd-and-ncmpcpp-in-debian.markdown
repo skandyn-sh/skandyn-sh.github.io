@@ -38,9 +38,9 @@ key u - update database
 
 <img src="https://skandyns.github.io/img/ncmpcpp.png"/>
 
-<a href="https://github.com/skandyns/ncmpcpp/blob/master/ncmpcpp.png" target="_blank">that's my look ncmpcpp</a>
+<a href="https://github.com/skandyns/ncmpcpp/blob/master/ncmpcpp.png"><button class="button-download button-small button-small pure-button">my look ncmpcpp</button></a>
 
-ncmpcpp useful keyboard keys
+keys
 ```
 1 - playlist
 2 - browse
