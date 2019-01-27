@@ -7,7 +7,7 @@ configure  mpd
 $ mkdir -p ~/.mpd/playlists
 $ touch ~/.mpd/mpd.conf
 ```
-<a href="https://github.com/skandyns/mpd/blob/master/mpd.conf" target="_blank"><button class="button-link button-small pure-button">mpd.conf (pulseaudio)</button></a>
+<a href="https://github.com/skandyns/mpd/blob/master/mpd.conf" target="_blank"><button class="button-l button-small pure-button">mpd.conf (pulseaudio)</button></a>
 ```
 $ nano ~/.mpd/mpd.conf
 ```
@@ -16,7 +16,7 @@ configure ncmpcpp
 $ mkdir ~/.ncmpcpp
 $ touch ~/.ncmpcpp/config
 ```
-<a href="https://github.com/skandyns/ncmpcpp/blob/master/config" target="_blank"><button class="button-link button-small pure-button">config</button></a>
+<a href="https://github.com/skandyns/ncmpcpp/blob/master/config" target="_blank"><button class="button-l button-small pure-button">config</button></a>
 ```
 $ nano ~/.ncmpcpp/config
 ```
@@ -38,7 +38,7 @@ key u - update database
 
 <img src="https://skandyns.github.io/img/ncmpcpp.png"/>
 
-<a href="https://github.com/skandyns/ncmpcpp/blob/master/ncmpcpp.png" target="_blank"><button class="button-link button-small pure-button">my ncmpcpp</button></a>
+<a href="https://github.com/skandyns/ncmpcpp/blob/master/ncmpcpp.png" target="_blank"><button class="button-l button-small pure-button">my ncmpcpp</button></a>
 
 keys
 ```
