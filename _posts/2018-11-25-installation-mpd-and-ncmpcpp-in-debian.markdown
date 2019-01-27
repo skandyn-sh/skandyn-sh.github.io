@@ -38,7 +38,7 @@ key u - update database
 
 <img src="https://skandyns.github.io/img/ncmpcpp.png"/>
 
-<a href="https://github.com/skandyns/ncmpcpp/blob/master/ncmpcpp.png" target="_blank><button class="button-link button-small pure-button">my ncmpcpp</button></a>
+<a href="https://github.com/skandyns/ncmpcpp/blob/master/ncmpcpp.png" target="_blank"><button class="button-link button-small pure-button">my ncmpcpp</button></a>
 
 keys
 ```
